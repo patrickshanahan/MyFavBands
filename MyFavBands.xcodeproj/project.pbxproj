@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903A38B31D99D50A006619DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A38B21D99D50A006619DF /* AppDelegate.swift */; };
+		903A38B51D99D50A006619DF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A38B41D99D50A006619DF /* MasterViewController.swift */; };
+		903A38B71D99D50A006619DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A38B61D99D50A006619DF /* DetailViewController.swift */; };
+		903A38BA1D99D50A006619DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903A38B81D99D50A006619DF /* Main.storyboard */; };
+		903A38BC1D99D50A006619DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903A38BB1D99D50A006619DF /* Assets.xcassets */; };
+		903A38BF1D99D50A006619DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903A38BD1D99D50A006619DF /* LaunchScreen.storyboard */; };
+		903A38CF1D99D6E9006619DF /* blacksabbath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38C71D99D6E9006619DF /* blacksabbath.jpg */; };
+		903A38D01D99D6E9006619DF /* edguy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38C81D99D6E9006619DF /* edguy.jpg */; };
+		903A38D11D99D6E9006619DF /* IronMaiden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38C91D99D6E9006619DF /* IronMaiden.jpg */; };
+		903A38D21D99D6E9006619DF /* journey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38CA1D99D6E9006619DF /* journey.jpg */; };
+		903A38D31D99D6E9006619DF /* Kamelot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38CB1D99D6E9006619DF /* Kamelot.jpg */; };
+		903A38D41D99D6E9006619DF /* motionCitySoundtrack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38CC1D99D6E9006619DF /* motionCitySoundtrack.jpg */; };
+		903A38D61D99D6E9006619DF /* stevemillerband.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38CE1D99D6E9006619DF /* stevemillerband.jpg */; };
+		903A38D81D99DEE3006619DF /* RUSH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 903A38D71D99DEE3006619DF /* RUSH.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		903A38AF1D99D50A006619DF /* MyFavBands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavBands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A38B21D99D50A006619DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		903A38B41D99D50A006619DF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		903A38B61D99D50A006619DF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		903A38B91D99D50A006619DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		903A38BB1D99D50A006619DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		903A38BE1D99D50A006619DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		903A38C01D99D50A006619DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903A38C71D99D6E9006619DF /* blacksabbath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blacksabbath.jpg; path = ../../blacksabbath.jpg; sourceTree = "<group>"; };
+		903A38C81D99D6E9006619DF /* edguy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = edguy.jpg; path = ../../edguy.jpg; sourceTree = "<group>"; };
+		903A38C91D99D6E9006619DF /* IronMaiden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IronMaiden.jpg; path = ../../IronMaiden.jpg; sourceTree = "<group>"; };
+		903A38CA1D99D6E9006619DF /* journey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = journey.jpg; path = ../../journey.jpg; sourceTree = "<group>"; };
+		903A38CB1D99D6E9006619DF /* Kamelot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kamelot.jpg; path = ../../Kamelot.jpg; sourceTree = "<group>"; };
+		903A38CC1D99D6E9006619DF /* motionCitySoundtrack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = motionCitySoundtrack.jpg; path = ../../motionCitySoundtrack.jpg; sourceTree = "<group>"; };
+		903A38CE1D99D6E9006619DF /* stevemillerband.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stevemillerband.jpg; path = ../../stevemillerband.jpg; sourceTree = "<group>"; };
+		903A38D71D99DEE3006619DF /* RUSH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RUSH.jpg; path = ../../RUSH.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903A38AC1D99D509006619DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		903A38A61D99D509006619DF = {
+			isa = PBXGroup;
+			children = (
+				903A38B11D99D50A006619DF /* MyFavBands */,
+				903A38B01D99D50A006619DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903A38B01D99D50A006619DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903A38AF1D99D50A006619DF /* MyFavBands.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903A38B11D99D50A006619DF /* MyFavBands */ = {
+			isa = PBXGroup;
+			children = (
+				903A38C61D99D6B2006619DF /* Images */,
+				903A38B21D99D50A006619DF /* AppDelegate.swift */,
+				903A38B41D99D50A006619DF /* MasterViewController.swift */,
+				903A38B61D99D50A006619DF /* DetailViewController.swift */,
+				903A38B81D99D50A006619DF /* Main.storyboard */,
+				903A38BB1D99D50A006619DF /* Assets.xcassets */,
+				903A38BD1D99D50A006619DF /* LaunchScreen.storyboard */,
+				903A38C01D99D50A006619DF /* Info.plist */,
+			);
+			path = MyFavBands;
+			sourceTree = "<group>";
+		};
+		903A38C61D99D6B2006619DF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				903A38D71D99DEE3006619DF /* RUSH.jpg */,
+				903A38C71D99D6E9006619DF /* blacksabbath.jpg */,
+				903A38C81D99D6E9006619DF /* edguy.jpg */,
+				903A38C91D99D6E9006619DF /* IronMaiden.jpg */,
+				903A38CA1D99D6E9006619DF /* journey.jpg */,
+				903A38CB1D99D6E9006619DF /* Kamelot.jpg */,
+				903A38CC1D99D6E9006619DF /* motionCitySoundtrack.jpg */,
+				903A38CE1D99D6E9006619DF /* stevemillerband.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903A38AE1D99D509006619DF /* MyFavBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903A38C31D99D50A006619DF /* Build configuration list for PBXNativeTarget "MyFavBands" */;
+			buildPhases = (
+				903A38AB1D99D509006619DF /* Sources */,
+				903A38AC1D99D509006619DF /* Frameworks */,
+				903A38AD1D99D509006619DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavBands;
+			productName = MyFavBands;
+			productReference = 903A38AF1D99D50A006619DF /* MyFavBands.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903A38A71D99D509006619DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					903A38AE1D99D509006619DF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 903A38AA1D99D509006619DF /* Build configuration list for PBXProject "MyFavBands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 903A38A61D99D509006619DF;
+			productRefGroup = 903A38B01D99D50A006619DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903A38AE1D99D509006619DF /* MyFavBands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903A38AD1D99D509006619DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A38BF1D99D50A006619DF /* LaunchScreen.storyboard in Resources */,
+				903A38D11D99D6E9006619DF /* IronMaiden.jpg in Resources */,
+				903A38CF1D99D6E9006619DF /* blacksabbath.jpg in Resources */,
+				903A38D81D99DEE3006619DF /* RUSH.jpg in Resources */,
+				903A38D21D99D6E9006619DF /* journey.jpg in Resources */,
+				903A38D01D99D6E9006619DF /* edguy.jpg in Resources */,
+				903A38BC1D99D50A006619DF /* Assets.xcassets in Resources */,
+				903A38BA1D99D50A006619DF /* Main.storyboard in Resources */,
+				903A38D31D99D6E9006619DF /* Kamelot.jpg in Resources */,
+				903A38D41D99D6E9006619DF /* motionCitySoundtrack.jpg in Resources */,
+				903A38D61D99D6E9006619DF /* stevemillerband.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903A38AB1D99D509006619DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A38B71D99D50A006619DF /* DetailViewController.swift in Sources */,
+				903A38B51D99D50A006619DF /* MasterViewController.swift in Sources */,
+				903A38B31D99D50A006619DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		903A38B81D99D50A006619DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903A38B91D99D50A006619DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		903A38BD1D99D50A006619DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903A38BE1D99D50A006619DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		903A38C11D99D50A006619DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		903A38C21D99D50A006619DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903A38C41D99D50A006619DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFavBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903A38C51D99D50A006619DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFavBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903A38AA1D99D509006619DF /* Build configuration list for PBXProject "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A38C11D99D50A006619DF /* Debug */,
+				903A38C21D99D50A006619DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903A38C31D99D50A006619DF /* Build configuration list for PBXNativeTarget "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A38C41D99D50A006619DF /* Debug */,
+				903A38C51D99D50A006619DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903A38A71D99D509006619DF /* Project object */;
+}
